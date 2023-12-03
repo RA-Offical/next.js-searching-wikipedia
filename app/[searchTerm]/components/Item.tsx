@@ -10,6 +10,7 @@ function Item({ result }: Props) {
 			<h2>
 				<Link
 					href={`https://en.wikipedia.ord/?curid=${result.pageid}`}
+					target="_blank"
 					className="text-xl font-bold underline">
 					{result.title}
 				</Link>
